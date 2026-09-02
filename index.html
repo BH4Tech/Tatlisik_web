@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TATLIŞIK - İstanbul genelinde 12 şubemizle el yapımı Belçika çikolatalı özel tatlılarımızı sunuyoruz. Tatlılarımızın hazırlanış videolarını izleyin, en yakın şubemizi keşfedin veya franchise başvurusu yapın.">
+    <meta name="keywords" content="tatlışık, çikolatalı tatlı, belçika çikolatası, istanbul tatlıcı, asiye tatlısı, bihter tatlısı, san sebastian, karpatka, franchise, tatlı menüsü">
+    <meta name="author" content="TATLIŞIK">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TATLIŞIK | İstanbul'un El Yapımı Özel Çikolatalı Tatlıları">
+    <meta property="og:description" content="12 şubemizle çikolata tutkunlarına özel el yapımı tarifler. Tatlılarımızı videolarıyla canlı olarak görün.">
+    <meta property="og:image" content="assets/logo/logo.png">
+    
+    <title>TATLIŞIK | İstanbul'un El Yapımı Özel Çikolatalı Tatlıları</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo/logo.png">
+    
+    <!-- Google Fonts: Outfit & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+
+
+    <!-- Style Sheet with cache-busting query -->
+    <link rel="stylesheet" href="style.css?v=4.1">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo-link" id="nav-logo">
+                <img src="assets/logo/logo.svg" alt="TATLIŞIK Logo" class="brand-logo">
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-item active">Ana Sayfa</a>
+                <a href="#menu" class="nav-item">Tatlılarımız</a>
+                <a href="#about" class="nav-item">Hakkımızda</a>
+                <a href="#branches" class="nav-item">Şubelerimiz</a>
+                <a href="#franchise" class="nav-item btn-franchise-nav">Franchise Başvurusu</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menüyü Aç">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <!-- Cinematic background slideshow with lazy rotating videos -->
+        <div class="hero-slideshow-container">
+            <div class="hero-slide active" data-video="videolar/gonulcelen.mp4" style="background-image: url('assets/images/yvz_0233.jpg');">
+                <video class="hero-slide-video" muted loop playsinline></video>
+            </div>
+            <div class="hero-slide" data-video="videolar/Asiye.mp4" style="background-image: url('assets/images/yvz_0199.jpg');">
+                <video class="hero-slide-video" muted loop playsinline></video>
+            </div>
+            <div class="hero-slide" data-video="videolar/Tatlı1.mp4" style="background-image: url('assets/images/yvz_0278.jpg');">
+                <video class="hero-slide-video" muted loop playsinline></video>
+            </div>
+            <div class="hero-slide" data-video="videolar/Nazende.mp4" style="background-image: url('assets/images/yvz_0301.jpg');">
+                <video class="hero-slide-video" muted loop playsinline></video>
+            </div>
+            <div class="hero-slide" data-video="videolar/cikolatali-sansebastian.mp4" style="background-image: url('assets/images/yvz_0308.jpg');">
+                <video class="hero-slide-video" muted loop playsinline></video>
+            </div>
+            <div class="hero-slide" data-video="videolar/Tatlı3.mp4" style="background-image: url('assets/images/yvz_0323.jpg');">
+                <video class="hero-slide-video" muted loop playsinline></video>
+            </div>
+            <!-- Premium overlay for maximum text readability and chocolate warmth -->
+            <div class="hero-video-overlay"></div>
+        </div>
+        
+        <!-- Centered content overlay -->
+        <div class="container hero-center-container">
+            <div class="hero-glass-card animate-up">
+                <img src="assets/logo/logo.svg" alt="TATLIŞIK" class="hero-brand-logo">
+                <p class="hero-subtitle">Çikolatanın En Akışkan Hali</p>
+                
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">Tatlıları Keşfet <i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#franchise" class="btn btn-secondary">Franchise Başvurusu <i class="fa-solid fa-file-signature"></i></a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">12</span>
+                        <span class="stat-lbl">Şube İstanbul'da</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">%100</span>
+                        <span class="stat-lbl">Gerçek Callebaut</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">Günlük</span>
+                        <span class="stat-lbl">Taze Reçete</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram-style Stories Section -->
+    <section class="stories-section container">
+        <div class="section-header-mini">
+            <span class="badge">Canlı & Taze</span>
+            <h2>Günlük Lezzet Hikayeleri</h2>
+            <p>Tatlılarımızın hazırlanış anlarını ve çikolata akışını canlı hikayelerimizden izleyin.</p>
+        </div>
+        
+        <div class="stories-wrapper">
+            <div class="stories-track" id="stories-track">
+                <!-- Story Items will be dynamically loaded via JS to control the references -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products & Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">El Yapımı Reçeteler</span>
+                <h2>İmza Lezzetlerimiz</h2>
+                <p>Belçika çikolatasının en asil halleriyle hazırlanan, her biri kendine özel hikayesi olan tatlı kreasyonlarımız.</p>
+            </div>
+            
+            <!-- Menu Filter Categories -->
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">Tüm Lezzetler</button>
+                <button class="filter-btn" data-filter="cikolatali">Çikolatalı İmza</button>
+                <button class="filter-btn" data-filter="hamurlu">Hamurlu & Çıtır</button>
+                <button class="filter-btn" data-filter="pasta">Pasta & Cheesecake</button>
+            </div>
+            
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menu-grid">
+                <!-- Menu Items will be generated via app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-images">
+                <div class="premium-about-gallery">
+                    <div class="gallery-item item-lg">
+                        <img src="assets/images/_gg_2542.jpg" alt="TATLIŞIK Lezzetleri" class="gallery-img">
+                    </div>
+                    <div class="gallery-item item-sm">
+                        <img src="assets/images/_gg_2543.jpg" alt="TATLIŞIK Çikolata Akışı" class="gallery-img">
+                    </div>
+                    <div class="gallery-item item-sm">
+                        <img src="assets/images/_gg_2478.jpg" alt="TATLIŞIK Tatlı Detayı" class="gallery-img">
+                    </div>
+                    <div class="gallery-item item-md">
+                        <img src="assets/images/_gg_2437.jpg" alt="TATLIŞIK Sunumu" class="gallery-img">
+                    </div>
+                    <div class="collage-badge-floating">
+                        <span class="number">12</span>
+                        <span class="text">Şube İstanbul'da</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="badge">Hikayemiz</span>
+                <h2>Çikolata Aşkıyla Başlayan Yolculuk</h2>
+                <p class="lead">TATLIŞIK olarak, çikolatanın bir tatlıdan çok daha fazlası olduğuna inanıyoruz. O, mutluluk veren bir ışıltı, duyuları harekete geçiren bir sanattır.</p>
+                <p>Her gün en kaliteli Belçika çikolatalarını, taze çilekleri, fırından yeni çıkmış çıtır hamurları ve kendi imza krema tariflerimizi bir araya getiriyoruz. İstanbul'da 12 adet şubemizle çikolata tutkunlarına sadece bir tatlı değil, unutulmaz bir lezzet deneyimi ve görsel bir şölen yaşatıyoruz.</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-heart"></i></div>
+                        <div class="feature-text">
+                            <h4>Handcrafted Reçeteler</h4>
+                            <p>Tüm kremalarımız ve soslarımız günlük olarak şeflerimiz tarafından özel olarak hazırlanır.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-gem"></i></div>
+                        <div class="feature-text">
+                            <h4>Belçika Çikolatası</h4>
+                            <p>Tüm tatlılarımızda gerçek ve kaliteli Callebaut Belçika çikolatası kullanılır.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section id="branches" class="branches-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Şubelerimiz</span>
+                <h2>İstanbul'daki 10 Lezzet Noktamız</h2>
+                <p>Size en yakın TATLIŞIK şubesini bulun, sıcak ve samimi atmosferimizde çikolatanın tadını çıkarın.</p>
+                <div class="branch-search-container">
+                    <div class="search-input-wrapper">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="branch-search" placeholder="İlçe veya şube adı ara...">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="branches-grid" id="branches-grid">
+                <!-- 10 Branches will be loaded dynamically via app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Franchise Form Section -->
+    <section id="franchise" class="franchise-section">
+        <div class="container franchise-grid">
+            <div class="franchise-info">
+                <span class="badge">Birlikte Büyüyelim</span>
+                <h2>TATLIŞIK Ailesine Katılın</h2>
+                <p class="lead">Kendi işinizin sahibi olun ve İstanbul'un en sevilen çikolata markasıyla kazançlı bir ortaklığa adım atın.</p>
+                <p>Yoğun yaya trafiğine sahip lokasyonlarda, kendini kanıtlamış operasyonel sistemimiz, güçlü pazarlama desteğimiz ve rakipsiz lezzet kalitemizle franchise ortaklarımıza sürdürülebilir bir iş modeli sunuyoruz.</p>
+                
+                <div class="franchise-steps">
+                    <div class="step-card">
+                        <div class="step-num">01</div>
+                        <div class="step-desc">
+                            <h5>Başvuru ve Değerlendirme</h5>
+                            <p>Aşağıdaki formu doldurarak ilk adımı atın. Ekibimiz başvurunuzu inceler.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-num">02</div>
+                        <div class="step-desc">
+                            <h5>Lokasyon Analizi</h5>
+                            <p>Hedeflenen bölgeyi ve yaya trafiğini uzman ekibimizle birlikte analiz ederiz.</p>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-num">03</div>
+                        <div class="step-desc">
+                            <h5>Anahtar Teslim Kurulum</h5>
+                            <p>Şubenizi TATLIŞIK konseptine uygun olarak dekore edip işletmeye hazır teslim ederiz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="franchise-card" id="franchise-card-container">
+                <h3>Franchise Başvuru Formu</h3>
+                <p>Lütfen bilgilerinizi eksiksiz doldurun. Ekibimiz 48 saat içinde sizinle iletişime geçecektir.</p>
+                
+                <form id="franchise-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Ad Soyad *</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="Adınız ve soyadınız">
+                            <span class="error-msg" id="err-fullName">Lütfen adınızı ve soyadınızı girin.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row split">
+                        <div class="form-group">
+                            <label for="email">E-posta Adresi *</label>
+                            <input type="email" id="email" name="email" required placeholder="E-posta adresiniz">
+                            <span class="error-msg" id="err-email">Geçerli bir e-posta adresi girin.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon Numarası *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="05XX XXX XX XX">
+                            <span class="error-msg" id="err-phone">Geçerli bir telefon numarası girin.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row split">
+                        <div class="form-group">
+                            <label for="district">Tercih Edilen Lokasyon/İlçe *</label>
+                            <select id="district" name="district" required>
+                                <option value="" disabled selected>İlçe seçin</option>
+                                <option value="Adalar">Adalar</option>
+                                <option value="Arnavutköy">Arnavutköy</option>
+                                <option value="Ataşehir">Ataşehir</option>
+                                <option value="Avcılar">Avcılar</option>
+                                <option value="Bağcılar">Bağcılar</option>
+                                <option value="Bahçelievler">Bahçelievler</option>
+                                <option value="Bakırköy">Bakırköy</option>
+                                <option value="Başakşehir">Başakşehir</option>
+                                <option value="Bayrampaşa">Bayrampaşa</option>
+                                <option value="Beşiktaş">Beşiktaş</option>
+                                <option value="Beykoz">Beykoz</option>
+                                <option value="Beylikdüzü">Beylikdüzü</option>
+                                <option value="Beyoğlu">Beyoğlu</option>
+                                <option value="Büyükçekmece">Büyükçekmece</option>
+                                <option value="Çatalca">Çatalca</option>
+                                <option value="Çekmeköy">Çekmeköy</option>
+                                <option value="Esenler">Esenler</option>
+                                <option value="Esenyurt">Esenyurt</option>
+                                <option value="Eyüpsultan">Eyüpsultan</option>
+                                <option value="Fatih">Fatih</option>
+                                <option value="Gaziosmanpaşa">Gaziosmanpaşa</option>
+                                <option value="Güngören">Güngören</option>
+                                <option value="Kadıköy">Kadıköy</option>
+                                <option value="Kağıthane">Kağıthane</option>
+                                <option value="Kartal">Kartal</option>
+                                <option value="Küçükçekmece">Küçükçekmece</option>
+                                <option value="Maltepe">Maltepe</option>
+                                <option value="Pendik">Pendik</option>
+                                <option value="Sancaktepe">Sancaktepe</option>
+                                <option value="Sarıyer">Sarıyer</option>
+                                <option value="Silivri">Silivri</option>
+                                <option value="Sultanbeyli">Sultanbeyli</option>
+                                <option value="Sultangazi">Sultangazi</option>
+                                <option value="Şile">Şile</option>
+                                <option value="Şişli">Şişli</option>
+                                <option value="Tuzla">Tuzla</option>
+                                <option value="Ümraniye">Ümraniye</option>
+                                <option value="Üsküdar">Üsküdar</option>
+                                <option value="Zeytinburnu">Zeytinburnu</option>
+                            </select>
+                            <span class="error-msg" id="err-district">Lütfen bir lokasyon seçin.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Yatırım Bütçesi *</label>
+                            <select id="budget" name="budget" required>
+                                <option value="" disabled selected>Yatırım bütçesi aralığı</option>
+                                <option value="0 - 1.500.000 TL">0 - 1.500.000 TL</option>
+                                <option value="1.500.000 TL - 3.000.000 TL">1.500.000 TL - 3.000.000 TL</option>
+                                <option value="3.000.000 TL - 5.000.000 TL">3.000.000 TL - 5.000.000 TL</option>
+                                <option value="5.000.000 TL +">5.000.000 TL +</option>
+                            </select>
+                            <span class="error-msg" id="err-budget">Lütfen bütçe aralığı seçin.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group checkbox-group has-shop-toggle">
+                            <input type="checkbox" id="hasShop" name="hasShop">
+                            <label for="hasShop"><strong>Kendi dükkanım var / Hazır dükkan lokasyonum mevcut.</strong></label>
+                        </div>
+                    </div>
+                    
+                    <!-- Conditional Shop Details (initially hidden) -->
+                    <div class="own-shop-details-container" id="own-shop-details" style="display: none;">
+                        <div class="form-row split">
+                            <div class="form-group">
+                                <label for="shopName">Dükkan Adı / Tabela İsmi *</label>
+                                <input type="text" id="shopName" name="shopName" placeholder="Mevcut dükkanınızın adı">
+                                <span class="error-msg" id="err-shopName">Lütfen dükkan adını girin.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="shopLocation">Dükkan Konumu (Google Harita Linki veya Koordinat) *</label>
+                                <input type="text" id="shopLocation" name="shopLocation" placeholder="Haritada işaretleyin veya koordinat girin">
+                                <span class="error-msg" id="err-shopLocation">Lütfen dükkan konumunu veya harita linkini girin.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="shopAddress">Dükkan Adresi *</label>
+                                <textarea id="shopAddress" name="shopAddress" rows="2" placeholder="Dükkanınızın tam açık adresi..."></textarea>
+                                <span class="error-msg" id="err-shopAddress">Lütfen dükkan adresini girin.</span>
+                            </div>
+                        </div>
+
+                        <!-- Real Interactive Map Selection -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Haritada Dükkanınızın Konumunu İşaretleyin (Tıklayın)</label>
+                                <div id="shop-map" style="height: 240px; border-radius: var(--radius-sm); border: 1px solid var(--color-border); z-index: 1;"></div>
+                                <input type="hidden" id="shopCoordinates" name="shopCoordinates">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row split">
+                            <div class="form-group">
+                                <label>Dükkan İçi Fotoğrafları *</label>
+                                <div class="custom-file-upload">
+                                    <input type="file" id="shopInteriorImg" name="shopInteriorImg" accept="image/*" multiple style="display: none;">
+                                    <label for="shopInteriorImg" class="file-upload-label">
+                                        <i class="fa-solid fa-images"></i>
+                                        <span>Fotoğraf Seç (İç Mekan)</span>
+                                    </label>
+                                    <div class="file-list-preview" id="interior-preview">Hiçbir dosya seçilmedi</div>
+                                </div>
+                                <span class="error-msg" id="err-shopInteriorImg">Lütfen en az 1, en fazla 5 adet iç mekan fotoğrafı yükleyin.</span>
+                            </div>
+                            <div class="form-group">
+                                <label>Dükkan Dışı / Cephe Fotoğrafları *</label>
+                                <div class="custom-file-upload">
+                                    <input type="file" id="shopExteriorImg" name="shopExteriorImg" accept="image/*" multiple style="display: none;">
+                                    <label for="shopExteriorImg" class="file-upload-label">
+                                        <i class="fa-solid fa-store"></i>
+                                        <span>Fotoğraf Seç (Cephe/Dış)</span>
+                                    </label>
+                                    <div class="file-list-preview" id="exterior-preview">Hiçbir dosya seçilmedi</div>
+                                </div>
+                                <span class="error-msg" id="err-shopExteriorImg">Lütfen en az 1, en fazla 5 adet cephe fotoğrafı yükleyin.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="experience" name="experience">
+                            <label for="experience">Gıda veya Restorancılık sektöründe tecrübem var.</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="message">Eklemek İstedikleriniz (Varsa ek bütçe, ticari geçmiş vb.)</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Başvurunuzla ilgili detaylar..."></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block" id="btn-submit-franchise">
+                        Başvuruyu Gönder <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/logo/logo.svg" alt="TATLIŞIK Logo" class="footer-logo">
+                <p>TATLIŞIK, el yapımı Belçika çikolatalı özel tarifleriyle İstanbul'da lezzet ve görsel şölen sunar.</p>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/cafetatlisik?igsi=eGNzbnYzYXZ6MXFo" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://tgoyemek.com/arama?searchQuery=tatl%C4%B1%C5%9F%C4%B1k" target="_blank" aria-label="Trendyol"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <a href="https://getir.com" target="_blank" aria-label="Getir"><i class="fa-solid fa-motorcycle"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Hızlı Erişim</h4>
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="#menu">Tatlılarımız</a></li>
+                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#branches">Şubelerimiz</a></li>
+                    <li><a href="#franchise">Franchise</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>İletişim & Genel Merkez</h4>
+                <ul>
+                    <li id="footer-address-li"><i class="fa-solid fa-location-dot"></i> <span id="footer-address-text">Nişantaşı, Valikonağı Cd. No:45, Şişli / İstanbul</span></li>
+                    <li id="footer-phone-li"><i class="fa-solid fa-phone"></i> <span id="footer-phone-text">+90 (212) 555 44 33</span></li>
+                    <li id="footer-email-li"><i class="fa-solid fa-envelope"></i> <span>info@tatlisik.com</span></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container bottom-container">
+                <p>&copy; 2026 TATLIŞIK. Tüm Hakları Saklıdır.</p>
+                <div class="legal-links">
+                    <a href="#">Gizlilik Politikası</a>
+                    <a href="#">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Full-screen Instagram-style Story Modal -->
+    <div class="story-modal" id="story-modal">
+        <div class="story-modal-close" id="story-close"><i class="fa-solid fa-xmark"></i></div>
+        
+        <div class="story-container">
+            <!-- Progress bars at the top -->
+            <div class="story-progress-bar-container" id="story-progress-bars">
+                <!-- Dynamically generated indicators -->
+            </div>
+            
+            <!-- Story Header -->
+            <div class="story-header">
+                <img src="assets/logo/logo.png" alt="TATLIŞIK Avatar" class="story-avatar">
+                <div class="story-info">
+                    <span class="story-author">TATLIŞIK</span>
+                    <span class="story-title" id="story-current-title">Asiye</span>
+                </div>
+                <div class="story-controls">
+                    <button class="story-ctrl-btn" id="story-mute" aria-label="Sesi Kapat"><i class="fa-solid fa-volume-high"></i></button>
+                    <button class="story-ctrl-btn" id="story-play-pause" aria-label="Duraklat"><i class="fa-solid fa-pause"></i></button>
+                </div>
+            </div>
+            
+            <!-- Story Media Content -->
+            <div class="story-media" id="story-media-box">
+                <!-- Video or Image elements will be rendered here dynamically -->
+            </div>
+            
+            <!-- Story Footer Swipe up -->
+            <div class="story-footer" id="story-footer-btn">
+                <i class="fa-solid fa-chevron-up"></i>
+                <span>Tatlının Detayını Gör</span>
+            </div>
+            
+            <!-- Navigation Arrows -->
+            <div class="story-nav-btn prev" id="story-prev"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="story-nav-btn next" id="story-next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal with Video -->
+    <div class="product-modal" id="product-modal">
+        <div class="pm-overlay" id="pm-overlay"></div>
+        <div class="pm-card">
+            <button class="pm-close-btn" id="pm-close" aria-label="Kapat"><i class="fa-solid fa-xmark"></i></button>
+            <div class="pm-body">
+                <div class="pm-video-side">
+                    <!-- Dessert detail loop video -->
+                    <video class="pm-video" id="pm-video" autoplay muted loop playsinline preload="auto">
+                        <source src="" type="video/mp4">
+                    </video>
+                    <!-- Dessert detail static image fallback -->
+                    <img class="pm-image" id="pm-image" src="" alt="" style="display: none; width: 100%; height: 100%; object-fit: cover;">
+                    
+                    <div class="pm-video-controls" id="pm-video-controls">
+                        <button class="pm-video-btn" id="pm-video-mute"><i class="fa-solid fa-volume-xmark"></i></button>
+                        <button class="pm-video-btn" id="pm-video-play"><i class="fa-solid fa-play"></i></button>
+                    </div>
+                </div>
+                <div class="pm-content-side">
+                    <span class="pm-tag" id="pm-category">Çikolatalı İmza</span>
+                    <h3 class="pm-title" id="pm-title">Asiye</h3>
+                    <p class="pm-description" id="pm-description">Yumuşacık akışkan krema ve bol sütlü Belçika çikolatasının dikey sunumu.</p>
+                    
+                    <div class="pm-spec-row">
+                        <div class="pm-spec">
+                            <span class="spec-title">Yoğunluk</span>
+                            <div class="chocolate-bar-indicator">
+                                <span class="indicator-bar filled"></span>
+                                <span class="indicator-bar filled"></span>
+                                <span class="indicator-bar filled"></span>
+                                <span class="indicator-bar"></span>
+                                <span class="indicator-bar"></span>
+                            </div>
+                        </div>
+                        <div class="pm-spec">
+                            <span class="spec-title">Çikolata Tipi</span>
+                            <span class="spec-val" id="pm-choco-type">Sütlü Belçika</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pm-ingredients">
+                        <h5>Malzemeler & İçerik</h5>
+                        <p id="pm-ingredients-list">Özel yapım sıcak sütlü krema, eritilmiş Belçika sütlü çikolatası, çıtır krep kırıkları, taze çilek dilimleri ve muz parçaları.</p>
+                    </div>
+                    
+                    <div class="pm-order-banner">
+                        <p>Bu lezzeti şubelerimizde veya eve sipariş platformlarında bulabilirsiniz!</p>
+                        <div class="pm-order-buttons">
+                            <a href="https://tgoyemek.com/arama?searchQuery=tatl%C4%B1%C5%9F%C4%B1k" target="_blank" class="btn-order trendyol"><i class="fa-solid fa-bag-shopping"></i> Trendyol Yemek</a>
+                            <a href="https://getir.com" target="_blank" class="btn-order getir"><i class="fa-solid fa-motorcycle"></i> Getir Yemek</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script File -->
+    <script src="app.js?v=4.1"></script>
+</body>
+</html>

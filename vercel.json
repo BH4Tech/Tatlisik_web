@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/config", "destination": "/api/franchise" },
+    { "source": "/api/franchise", "destination": "/api/franchise" },
+    { "source": "/franchise.php", "destination": "/api/franchise" }
+  ]
+}

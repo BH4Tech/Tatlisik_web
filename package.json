@@ -1,0 +1,13 @@
+{
+  "name": "tatlisik-website",
+  "version": "1.0.0",
+  "description": "TATLIŞIK Web Sitesi ve Franchise Başvuru Sistemi",
+  "main": "index.html",
+  "scripts": {
+    "start": "node -e \"console.log('TATLIŞIK Vercel Production Ready')\""
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "nodemailer": "^6.9.16"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "SMTP_SERVER": "smtp.gmail.com",
+    "SMTP_PORT": 587,
+    "SENDER_EMAIL": "tatlisik.franchise@gmail.com",
+    "SENDER_PASSWORD": "eota bart aifw wcjc",
+    "RECEIVER_EMAIL": "harunmemis23@icloud.com",
+    "FOOTER_ADDRESS": "",
+    "FOOTER_PHONE": ""
+}
